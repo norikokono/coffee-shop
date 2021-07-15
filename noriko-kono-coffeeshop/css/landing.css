@@ -1,0 +1,76 @@
+header {
+    background-color:#FFF0ED;
+}
+
+.h1-container {
+    background-color:#FFF0ED;
+}
+
+footer {
+    background-color:#FFF0ED;
+}
+
+.button {
+    background-color: #5BACC3;
+    color: white;
+    border: none;
+    font-size: 21 px;
+    font-weight: 400;
+    min-width: 180px;
+    max-width: 80%;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* promotion content p tag */
+#promotion {
+    background-color: #393939;
+    color: white;
+    margin-top: 0%;
+    padding: 1px;
+    font-size: 45px;
+    text-align: center;
+    /* margin-right: 300px; */
+    min-width: auto;
+    max-width: 90%;
+}
+
+/* .fa {
+    color: rgb(82, 86, 89);
+    font-size: 60px;
+    padding: 0.5em;
+} */
+
+.product-image {
+    min-height: 240px;
+    max-height: 550px ;
+}
+
+.index-price {
+    color: #5BACC3;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* coffee beans and social network icons */
+.icons {
+    min-width: 50px;
+    max-width: 120px;
+}
+
+/* https://stackoverflow.com/questions/38437231/icon-flipping-on-hover social network icons animation */
+a #logo-img{ 
+    margin: 3px 20px; 
+    -webkit-transition: 0.6s ease-out;
+    -moz-transition:  0.6s ease-out;
+    transition:  0.6s ease-out;
+}
+
+a #logo-img:hover {
+  -webkit-transform: rotateZ(720deg);
+  -moz-transform: rotateZ(720deg);
+  transform: rotateZ(720deg);
+}
+

@@ -1,0 +1,48 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Open Sans', Helvetica, Arial, sans-serif; */
+    /* font-family: Roboto, "Ubuntu", Arial, sans-serif; */
+    color: #393939;
+    background-color: #FFF;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.no-underline {
+    text-decoration: none; 
+    font-size: 100px;
+    color: #393939;
+}
+
+a:hover {
+    text-decoration:underline;
+    color: #5BACC3;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 33px;
+    font-weight: 300;
+}
+
+nav li a {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
