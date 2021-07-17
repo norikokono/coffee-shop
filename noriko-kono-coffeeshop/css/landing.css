@@ -1,38 +1,65 @@
+body {
+    margin: 1em;
+}
+
 header {
-    background-color:#FFF0ED;
+    background-color: #FFF0ED;
+}
+
+.store-name {
+    text-decoration: none; 
+    font-size: 5em;
+    color: #393939;
+}
+.store-name:hover {
+    color: #ddd;
+    text-decoration: underline #ddd ;
+}
+
+a .icons:hover {
+   background-color: #ddd;
 }
 
 .h1-container {
-    background-color:#FFF0ED;
+    background-color: #FFF0ED;
 }
 
 footer {
-    background-color:#FFF0ED;
+    background-color: #FFF0ED;
 }
 
 .button {
     background-color: #5BACC3;
     color: white;
     border: none;
-    font-size: 21 px;
+    font-size: 1.3em;
     font-weight: 400;
-    min-width: 180px;
+    min-width: 8em;
     max-width: 80%;
-    padding: 20px;
-    margin: 20px;
+    padding: 0.2em;
+    margin-bottom: 0%;
+}
+
+.button:hover {
+    background-color: #ddd;
 }
 
 /* promotion content p tag */
 #promotion {
     background-color: #393939;
     color: white;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif; 
     margin-top: 0%;
-    padding: 1px;
-    font-size: 45px;
+    padding: 0.1em;
+    font-size: 3em;
     text-align: center;
     /* margin-right: 300px; */
     min-width: auto;
     max-width: 90%;
+}
+
+#promotion-title {
+    font-weight: 900;
 }
 
 /* .fa {
@@ -42,27 +69,30 @@ footer {
 } */
 
 .product-image {
-    min-height: 240px;
-    max-height: 550px ;
+    min-height: 15em;
+    max-height: 34em ;
 }
 
-.index-price {
+.product-price {
     color: #5BACC3;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 span {
-    font-weight: bold;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif; 
+    font-weight: 900;
 }
 
 /* coffee beans and social network icons */
-.icons {
-    min-width: 50px;
-    max-width: 120px;
+#logo-img {
+    min-width: 3em;
+    max-width: 7.5em;
 }
 
 /* https://stackoverflow.com/questions/38437231/icon-flipping-on-hover social network icons animation */
 a #logo-img{ 
-    margin: 3px 20px; 
+    margin: 0.1em 0.2em; 
     -webkit-transition: 0.6s ease-out;
     -moz-transition:  0.6s ease-out;
     transition:  0.6s ease-out;

@@ -7,21 +7,21 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">    
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  -->
         <link rel="stylesheet" href="./css/global.css">
         <link rel="stylesheet" href="./css/landing.css">
 
-        <title>Coffee Shop Home</title>
+        <title>🍰 Coffee Shop Home</title>
     </head>
     <body>
         <header>
             <nav>
-                <img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo" class="icons"><br><br>
-                <a href="#" class="no-underline">nitro</a>
+                <a href="#shop-now"><img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo" class="icons"><br><br>
+                <a href="#shop-now" class="store-name">nitro</a>
                 <ul>
-                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#address">ABOUT</a></li>
                     <li><a href="./pages/menu.html">MENU</a></li>
-                    <li><a href="#shop-now">SHOP NOW</a></li>
+                    <li><a href="./pages/menu.html">SHOP NOW</a></li>
                 </ul>
             </nav>
         </header>
@@ -29,48 +29,46 @@
         <main>
             <section class="h1-container">
             <h1>Nitro Coffee</h1>
-            <p>Coffee is a brewed drink prepared roasted coffee beans, the seeds of berries from certain Coffea species.</p>
-            <button type="button" class="button" id="shop-now">SHOP NOW</button> <img src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
+                <p>Coffee is a brewed drink prepared roasted coffee beans, the seeds of berries from certain Coffea species.</p>
+                <a href="./pages/menu.html"><button type="button" class="button" id="shop-now">SHOP NOW</button></a>
+                    <img src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
             </section>
-
 
             <h2>Our Products</h2>
                 <img src="./assets/images/coffeebeans.png" alt="coffee beans" class="product-image">   
                     <h3>Coffee Beans</h3>
-                    <p class="index-price">$18.99</p>
+                        <p class="product-price">$18.99</p>
                     
                 <img src="./assets/images/coldbrew.png" alt="cold brew" class="product-image">
                     <h3>Cold Brew</h3>
-                    <p class="index-price">$4.99</p>
+                        <p class="product-price">$4.99</p>
             
                 <img src="./assets/images/inhousebrew.png " alt="in-house brew" class="product-image">
                     <h3>In-house Brew</h3>
-                    <p class="index-price">$2.99</p>
+                        <p class="product-price">$2.99</p>
                 
-            <a href="./pages/menu.html"><button type="button" class="button">VIEW ALL</button></a>
-            <p id="promotion">Get 20% off your first order with code: <span>FirstNitro</span></p>
+                <a href="./pages/menu.html"><button type="button" class="button">VIEW ALL</button></a>
+                    <p id="promotion">Get 20% off your first order with code: <span id="promotion-title">FirstNitro</span></p>
         </main> 
 
-        <footer>
+        <footer id="address">
             <h3>Address</h3>
-            <p>503 Broadway Penthouse<br> New York</p>
+                <p>503 Broadway Penthouse</p>
+                <p>New York</p>
         
             <h3>Hours</h3>
-            <p>
-                <span>Monday - Friday:</span> 9am - 7pm<br>
-                <span>Saturday - Sunday:</span> 10am - 5pm
-            </p>
-
+                <p><span>Monday - Friday:</span> 9am - 7pm</p>
+                <p><span>Saturday - Sunday:</span> 10am - 5pm</p>
+                
             <h3>Social</h3>
                 <!-- https://stackoverflow.com/questions/38437231/icon-flipping-on-hover -->
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"><img src="./assets/logos/Facebook-Icon.svg" alt="Facebook icon" class="icons" id="logo-img" /></a>
-                <a href="https://www.yelp.com/" target="_blank" rel="noopener"><img src="./assets/logos/Yelp-Icon.svg" alt="Yelp icon" class="icons" id="logo-img" /></a>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="./assets/logos/Instagram-Icon.svg" alt="Instagram icon" class="icons" id="logo-img" /></a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"><img src="./assets/logos/Facebook-Icon.svg" alt="Facebook icon" id="logo-img" /></a>
+                <a href="https://www.yelp.com/" target="_blank" rel="noopener"><img src="./assets/logos/Yelp-Icon.svg" alt="Yelp icon" id="logo-img" /></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="./assets/logos/Instagram-Icon.svg" alt="Instagram icon" id="logo-img" /></a>
 
                 <!-- <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="fa fa-facebook-official"></a>
                      <a href="https://www.yelp.com/" target="_blank" rel="noopener" class="fa fa-yelp"></a>
-                     <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="fa fa-instagram"></a> -->
-             
+                     <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="fa fa-instagram"></a> -->        
         </footer>
     </body>
 </html>
