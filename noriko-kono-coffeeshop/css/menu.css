@@ -1,68 +1,3 @@
-/* navbar */
-.navbar {
-    background-color:#FFF0ED;  
-    overflow: auto;
-    margin: 0;
-  }
-  
-.navbar li {
-    display: inline-block;
-    margin: 1em;
-    padding-top: 3em;
-    padding-bottom: 0.5em;
-    padding-left: 2em;
-    list-style: none;
-  }
-
-.navbar a {
-    text-decoration: none;
-    color: #393939;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-#shop-now {
-    text-decoration: none;
-    color: #5BACC3; 
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-/* https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
-/* Change the color of links on hover */
-.navbar a:hover {
-    background-color: #ddd;
-    color: #5BACC3; 
-}
-  
-/* Add an active class to highlight the current page */
-.navbar a.active {
-    background-color: #5BACC3;
-    color: white;
-}
-
-.navbar #shop-now:hover {
-   color:white;
-}
-
-.navbar .beans-icon:hover {
-    background-color: #5BACC3; 
-}
-
-.beans-icon {
-    width: 2.5em;
-    /* min-width: 50px;
-    max-width: 120px;  */
-    vertical-align: sub;  /* makes icon to be lower position */
-}
-
-a.store-name {
-    text-decoration: none; 
-    font-size: 4em;
-    color: #393939;
-    font-weight: lighter;
-}
-
 /* container for coffee-circle image */
 .menu-container {
     position: relative;
@@ -72,14 +7,23 @@ a.store-name {
 /* text block on the coffee-circle image */
 .text-block {
     position: relative;
-    top: -27.2em;
-    left: 37em;
+    top: -10em;
+    left: 39.5em;
     background-color:#393939;
     color: #FFF;
     /* min-width: 280px; */
-    width: 400px;
+    width: 19rem;
     /* min-height: 180px; */
-    height: 250px;
+    height: 13rem;
+}
+
+.decoration-line {
+    position: relative;
+    width: 19rem;
+    height: 13rem;
+    border: 7px solid #5BACC3;
+    bottom: 1em;
+    right: 1em;
     text-align: center;
 }
 
@@ -93,7 +37,7 @@ a.store-name {
 }
 
 /* coffee-circle image */
-#menu-image {
+.menu-image {
     /* width:100%;  */
     position: relative;
     top: -15em;
@@ -107,14 +51,14 @@ a.store-name {
     object-fit: cover; /* stretch prevention */
 }
 
-#menu-links {
+.menu-links {
     background-color: #393939;
-    text-align: center;
     padding: 2em;
     margin: 0;
+    text-align: center;
 }
   
-#menu-links li {
+.menu-links li {
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -122,14 +66,14 @@ a.store-name {
     list-style: none;
   }
 
-#menu-links a {
+.menu-links a {
     text-decoration: none;
     color: white;
     font-size: 1.5em;
     font-weight: bold;
 }
 
-#menu-links a:hover {
+.menu-links a:hover {
     text-decoration: underline dotted  #5BACC3; 
 }
 

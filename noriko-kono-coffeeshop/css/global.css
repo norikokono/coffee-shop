@@ -6,6 +6,7 @@ body {
     background-color: #FFF;
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 *, * ::before, * ::after {
@@ -19,6 +20,13 @@ ul li {
 a:hover {
     text-decoration: underline;
     color: #5BACC3;
+}
+
+/* removed weird lines of Yelp logo */
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;  
 }
 
 h1 {
@@ -44,5 +52,76 @@ nav li a {
 p {
     font-size: 1.2em;
     font-weight: 400;
+}
+
+/* navbar ------------------------------------------------------------------------------------- */ 
+.navbar {
+    background-color:#FFF0ED;  
+    overflow: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.navbar li {
+    display: inline-block;
+    margin: 0 auto;
+    /* padding-top: 3em;
+    padding-bottom: 0.5em;
+    padding-left: 2em; */
+    padding: 2em;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #393939;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a.shop-now {
+    text-decoration: none;
+    color: #5BACC3; 
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: #5BACC3; 
+}
+  
+/* Add an active class to highlight the current page */
+.navbar a.active {
+    background-color: #5BACC3;
+    color: white;
+}
+
+.navbar .shop-now:hover {
+   color:white;
+}
+
+a .beans-icon:hover {
+    background-color: #5BACC3; 
+}
+
+.beans-icon {
+    width: 2.5em;
+    height: 2.5em;
+    /* min-width: 50px;
+    max-width: 120px;  */
+    vertical-align: sub;  /* makes icon to be lower position */
+}
+
+a.store-name {
+    text-decoration: none; 
+    font-size: 4em;
+    color: #393939;
+    font-weight: lighter
 }
 

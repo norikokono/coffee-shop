@@ -1,0 +1,29 @@
+
+
+Congratulations on your first submission Noriko!
+
+Good job with your visual design for this submission! Your site matches the mockup fairly closely with
+
+some small discrepancies. Nice going with your folder structure! Great application of semantic HTML tags
+
+throughout your site! You could consider including <address>, as well as nesting your product cards
+
+inside of <article>. Avoid the use of id selectors, for example #promotion and #promotion-title (line 51:
+
+index), we want to ensure our css is as reuseable as possible, you could opt for p .promotion {} in order to
+
+achieve good specificity - you can then reuse that promotion class where and as needed. Very fun
+
+addition of animations on the social media icons - NICE! Use "margin: 0 auto;" to keep your elements
+
+centered (in particular your p tags on menu.html which do not currently stay centred when the screen size
+
+changes. Try to nest your products into a container (index.html) - that will now allow you to use flex on
+
+this items.Great job manipulating the display property consistently to create your HTML layout as well as
+
+understanding and applying the box model! Run your HTML through https://validator.w3.org to check for
+
+any errors in your markup.
+
+This is a great start with a lot of potential. We look forward to the next submission!
