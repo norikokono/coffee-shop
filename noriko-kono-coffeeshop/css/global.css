@@ -22,7 +22,7 @@ a:hover {
     color: #5BACC3;
 }
 
-/* removed weird lines of Yelp logo */
+/* removed weird linking lines at Yelp logo */
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
@@ -61,7 +61,7 @@ p {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
   
