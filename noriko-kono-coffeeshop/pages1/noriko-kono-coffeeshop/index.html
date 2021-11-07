@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">    
+        <link rel="stylesheet" href="./scss/main.css">
+
+        <title>🍰 Coffee Shop Home</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div>
+                        <a href="./"><img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo" class="beans-icon"></a>
+                        <a href="https://www.starbucks.ca/" target="_blank" rel="noopener noreferrer" class="store-name">nitro</a>
+                </div>
+                <div>
+                    <ul> 
+                        <li><a href="#address">ABOUT</a></li>
+                        <li><a href="./pages/menu.html">MENU</a></li>
+                        <li><a href="./pages/menu.html" class="shop-now">SHOP NOW</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="h1-container">
+                <div class="h1-container__card--text">
+                    <h1>Nitro Coffee</h1>
+                        <p>Coffee is a brewed drink prepared from <br> roasted coffee beans, the seeds of berries <br> from certain Coffea species.</p>
+                        <div>
+                            <a href="./pages/menu.html"><button type="button" class="button shop-now">SHOP NOW</button>
+                            <div class="button__line"></div>
+                            </a>
+                        </div>
+                </div>
+                <div class="h1-container__card--image">
+                        <img src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
+                </div>
+            </section>
+        
+            <section class="product">
+                <h2 class="product__heading">Our Products</h2>
+                <div class="product-container">  
+                    <div class="product-container__card">
+                        <img src="./assets/images/coffeebeans.png" alt="coffee beans" class="product-image">   
+                            <div class="product-container__card-pink-background">
+                                <div class="product-container__card-pink-background--left">
+                                    <h3>Coffee Beans</h3>
+                                    <p class="product-container__card-pink-background--left-description">Pack of 3</p>
+                                </div>
+                                <p class="product-price">$19</p>
+                            </div>
+                    </div>  
+
+                    <div class="product-container__card">
+                        <img src="./assets/images/coldbrew.png" alt="cold brew" class="product-image">
+                            <div class="product-container__card-pink-background">
+                                <div class="product-container__card-pink-background--left">
+                                    <h3>Cold Brew</h3>
+                                    <p class="product-container__card-pink-background--left-description">1 can</p>
+                                </div>
+                                <p class="product-price">$5</p>
+                            </div>
+                    </div>
+
+                    <div class="product-container__card">
+                        <img src="./assets/images/inhousebrew.png" alt="in-house brew" class="product-image">
+                            <div class="product-container__card-pink-background">
+                                <div class="product-container__card-pink-background--left">
+                                    <h3>In-house Brew</h3>
+                                    <p class="product-container__card-pink-background--left-description">1 cup</p>
+                                </div>
+                                <p class="product-price">$3</p>
+                            </div>
+                    </div>     
+                </div>
+
+                <div class="product-container--button">
+                    <a href="./pages/menu.html">
+                        <button type="button" class="button">VIEW ALL</button>
+                            <div class="button__line"></div>
+                    </a>
+                </div>
+            </section>       
+            
+            <section class="slogan-container">
+                <div class="slogan-container__left">
+                    <h4>We're Different</h4>
+                        <p>
+                            We grow and roast our own beans. Every bean, every<br>
+                            cup, every step of the way, we strive for excellence.
+                        </p>
+
+                        <div class="slogan-container__icon-container">
+                            <div class="slogan-container__icon">
+                                <img src="./assets/logos/planting.svg" alt="plant icon" class="slogan-icon">
+                            </div>
+                            <div class="slogan-container__icon">
+                                <img src="./assets/logos/coffee-beans.svg" alt="coffee beans icon" class="slogan-icon">
+                            </div>
+                            <div class="slogan-container__icon">
+                                <img src="./assets/logos/coffee-cup.svg" alt="coffee cup icon" class="slogan-icon">
+                            </div>
+                        </div>
+
+                        <div class="button-block">
+                            <a href="https://www.deviantart.com/yves100/art/Nyancat-coffee-version-3-335978188" target="_blank" rel="noopener noreferrer">
+                                <button type="button" class="button">LEARN MORE</button>
+                                    <div class="button__line"></div>
+                            </a>
+                        </div>
+                </div>
+
+                 <div class="slogan-container__right">
+                        <div class="slogan-container__right--png-1">
+                            <img src="./assets/logos/coldbrewbackground.png" alt="cold brew background" class="cold-brew-background">
+                                <div class="slogan-container__right--line-decoration">
+                                    <div class="slogan-container__right--png-2">
+                                        <img src="./assets/images/tiltedcan.png" alt="tilted can" class="tilted-can style">
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                <button class="promotion">Get 20% off your first order with code: <span class="promotion__title">FirstNitro</span></button>
+        </main> 
+
+        <footer>
+            <address class="address" id="address">
+                <div class="address__beans-logo--left">
+                    <img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo" class="beans-icon--footer">
+                </div>
+                <div>
+                    <h3>Address</h3>
+                        <p>503 Broadway Penthouse<br>New York</p>
+                    </div>
+                <div>
+                    <h3>Hours</h3>
+                        <p>
+                            <span>Monday - Friday:</span> 9am - 7pm<br>
+                            <span>Saturday - Sunday:</span> 10am - 5pm
+                        </p>
+                </div>
+                <div>
+                    <h3>Social</h3>
+                        <!-- https://stackoverflow.com/questions/38437231/icon-flipping-on-hover -->
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/logos/Facebook-Icon.svg" alt="Facebook icon" id="logo-img" />
+                        </a>
+                        <a href="https://www.yelp.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/logos/Yelp-Icon.svg" alt="Yelp icon" id="logo-img" />
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/logos/Instagram-Icon.svg" alt="Instagram icon" id="logo-img" />
+                        </a>
+                </div>
+                <div class="address__beans-logo--right">
+                    <img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo" class="beans-icon--footer">
+                </div>
+            </address>
+        </footer>
+    </body>
+</html> 

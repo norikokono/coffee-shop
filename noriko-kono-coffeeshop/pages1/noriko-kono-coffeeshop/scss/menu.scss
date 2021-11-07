@@ -1,0 +1,263 @@
+// from global.css
+body {
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Open Sans', Helvetica, Arial, sans-serif; */
+    /* font-family: Roboto, "Ubuntu", Arial, sans-serif; */
+    color: #393939;
+    background-color: #FFF;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*, * ::before, * ::after {
+     box-sizing: inherit;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5BACC3;
+}
+
+/* removed weird linking lines at Yelp logo */
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;  
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 3.75em;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 2.1em;
+    font-weight: 300;
+}
+
+nav li a {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+/* navbar ------------------------------------------------------------------------------------- */ 
+.navbar {
+    background-color:#FFF0ED;  
+    overflow: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.navbar li {
+    display: inline-block;
+    margin: 0 auto;
+    /* padding-top: 3em;
+    padding-bottom: 0.5em;
+    padding-left: 2em; */
+    padding: 2em;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #393939;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a.shop-now {
+    text-decoration: none;
+    color: #5BACC3; 
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: #5BACC3; 
+}
+  
+/* Add an active class to highlight the current page */
+.navbar a.active {
+    background-color: #5BACC3;
+    color: white;
+}
+
+.navbar .shop-now:hover {
+   color:white;
+}
+
+a .beans-icon:hover {
+    background-color: #5BACC3; 
+}
+
+.beans-icon {
+    width: 2.5em;
+    height: 2.5em;
+    /* min-width: 50px;
+    max-width: 120px;  */
+    vertical-align: sub;  /* makes icon to be lower position */
+}
+
+a.store-name {
+    text-decoration: none; 
+    font-size: 4em;
+    color: #393939;
+    font-weight: lighter
+}
+
+// from menu.css
+
+/* container for coffee-circle image */
+.menu-container {
+    position: relative;
+    overflow: hidden;  /*The overflow is clipped, and the rest of the content will be invisible */
+} 
+
+/* text block on the coffee-circle image */
+.text-block {
+    position: relative;
+    top: -10em;
+    left: 39.5em;
+    background-color:#393939;
+    color: #FFF;
+    /* min-width: 280px; */
+    width: 19rem;
+    /* min-height: 180px; */
+    height: 13rem;
+}
+
+.decoration-line {
+    position: relative;
+    width: 19rem;
+    height: 13rem;
+    border: 7px solid #5BACC3;
+    bottom: 1em;
+    right: 1em;
+    text-align: center;
+}
+
+.text-block a {
+    text-decoration: none;
+}
+
+.text-block a:hover {
+    text-decoration: underline;
+    color: #FFF0ED;
+}
+
+/* coffee-circle image */
+.menu-image {
+    /* width:100%;  */
+    position: relative;
+    top: -15em;
+    margin-bottom: -46em; 
+    /* min-height: 100%; */
+    max-width: 100%;
+    /* min-height: 575px;  */
+    /* max-height: 600px;  */
+    background-position: center;
+    background-size: cover;
+    object-fit: cover; /* stretch prevention */
+}
+
+.menu-links {
+    background-color: #393939;
+    padding: 2em;
+    margin: 0;
+    text-align: center;
+}
+  
+.menu-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-left: 2em;
+    list-style: none;
+  }
+
+.menu-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu-links a:hover {
+    text-decoration: underline dotted  #5BACC3; 
+}
+
+.menu-link-text {
+    text-decoration: none;
+    color: white;
+    border-left: 0.2em solid  #5BACC3; 
+    padding-left: 1em;
+}
+
+h1 {
+    color:white;
+}
+
+h2 {
+    text-align: center ;
+    /* remove margin by below*/
+    margin-top: 0; 
+    padding: 0;
+}
+
+h3 {
+    text-align: center ;
+    margin-bottom: -0.4em;
+    padding: 0;
+}
+
+.price {
+    color: #5BACC3;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pink-background {
+    background-color:#FFF0ED;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.gray-background {
+    background-color:#F7F7F7;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* (I forgot where I found this information link.) If the box needs to be a fixed size, or you are keen to ensure that long words can't overflow, 
+then the overflow-wrap property can help. This property will break a word once it is too long to fit on a line by itself. */
+
+.menu-description {
+    inline-size: 27em;
+    overflow-wrap: break-word;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 26em;
+}
